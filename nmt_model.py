@@ -10,9 +10,8 @@ Vera Lin <veralin@stanford.edu>
 """
 from collections import namedtuple
 import sys
-from typing import List, Tuple, Dict, Set, Union
+from typing import List, Tuple
 import torch
-from torch import last_error
 import torch.nn as nn
 import torch.nn.utils
 import torch.nn.functional as F
